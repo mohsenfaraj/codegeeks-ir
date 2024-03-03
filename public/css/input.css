@@ -374,7 +374,7 @@ p .icon {
 
 /* Event post image styles */
 #export-post {
-  @apply absolute flex flex-row flex-wrap card border-none -right-6;
+  @apply absolute flex flex-row flex-wrap card border-none -right-2;
   clip-path: circle(0);
   width: 270px;
   height: 270px;
@@ -425,7 +425,7 @@ p .icon {
 
 /* Event story image styles */
 #export-story {
-  @apply absolute flex flex-col flex-wrap card border-none -right-6;
+  @apply absolute flex flex-col flex-wrap card border-none -right-2;
   clip-path: circle(0);
   width: 270px;
   height: 480px;
@@ -482,7 +482,7 @@ p .icon {
 
 /* Event printable pdf styles */
 #export-pdf {
-  @apply relative flex flex-row justify-center items-center flex-wrap -right-20
+  @apply relative flex flex-row justify-center items-center flex-wrap -right-36
     card border-none m-0 p-0;
   clip-path: circle(0);
   width: 793.3px;
@@ -534,19 +534,19 @@ p .icon {
   @apply rounded-full;
 }
 .profile-picture .github-icon {
-  @apply absolute right-0 top-32
+  @apply .btn-primary absolute right-0 top-32
     rounded-full;
 }
 .post-content .profile-picture .github-icon {
-  @apply absolute -top-4 -right-2
+  @apply .btn-primary absolute -top-4 -right-2
     rounded-full border;
 }
 .story-content .profile-picture .github-icon {
-  @apply absolute -top-5 -right-4
+  @apply .btn-primary absolute -top-5 -right-4
     rounded-full;
 }
 .pdf-content .profile-picture .github-icon {
-  @apply absolute -top-14 -right-4
+  @apply .btn-primary absolute -top-14 -right-4
     rounded-full;
 }
 .contributors .profile-picture .github-icon {
